@@ -1,0 +1,903 @@
+@media only screen and (max-width: 767px) {
+    body{
+        overflow-x: hidden;
+    }
+    .main_content {
+        width: 100%;
+        padding: 105px 15px 25px;
+        margin-left: 0;
+    }
+    .menu-left{
+        width: 30%;
+        left: -30%;
+    }
+    body.show_menu .menu-left{
+        left: 0%;
+    }
+    body.show_menu .menu_opener i::before{
+        content: "\f00d";
+    }
+    #navbar ul li a {
+        padding: 10px 15px;
+        overflow: hidden;
+        min-width: 55px;
+        padding-right: 5px;
+    }
+    .user_dropdown .u_name{
+        display: none;
+    }
+    #navbar ul{
+        width: 100%;
+    }
+    .menu_sec li:first-child {
+        border-right: none;
+    }
+    .menu_opener{
+        padding-left: 25px !important;
+    }
+    .brand_logo {
+        padding-left: 0px !important;
+    }
+    .page_title{
+        text-align: center;
+    }
+    .page_title .img_hold{
+        float: unset;
+        display: inline-block;
+    }
+    .chapter_box .head{
+        height: 60px;
+        padding-bottom: 0;
+    }
+    .tabe_menu .tab_li{
+        width: 50%;
+        text-align: center;
+    }
+    .dropdown-menu{
+        left: auto !important;
+        right: 0 !important;
+    }
+    .profile_menu_d li{
+        width: 100%;
+        padding: 0px 0;
+    }
+    .profile_menu_d li a{
+        font-size: 13px;
+    }
+    .profile_menu_d li:nth-child(2n){
+        text-align: left;
+    }
+    .profile_menu_d{
+        margin-top: 10px;
+    }
+    .profile_img{
+        padding-right: 15px;
+    }
+    .profile_details p {
+        font-size: 12px;
+    }
+    .profile_img img {
+         width: 85px;
+         margin-top: 12px;
+    }
+    .mb_p{
+        padding: 6px 0;
+    }
+    .c_accordin_header p{
+        text-align: left;
+        padding: 2px 15px;
+    }
+    .c_acccordin_link{
+        padding: 1px;
+    }
+    .profile_box .img_box{
+        width: 40%;
+        margin: 15px 0;
+    }
+    .theme_form .form-group{
+        padding: 5px 0px;
+    }
+    .theme_form .form-group .form-control{
+        padding: 0;
+    }
+    .role_select_box .img_area img{
+        width: 100%;
+    }
+    .role_select_box{
+        padding: 25px 5px;
+    }
+    .social_menu li{
+        margin: 10px 0;
+    }
+    .c_dropdown_box{
+        width: 100%;
+    }
+    #event-calendar {
+        padding-right: 0px;
+    }
+
+    .my_logs_fltered {
+        width: 300px;
+    }
+    .my_logs_fltered .oranged_selecter.transparent .select-selected::after{
+        right: 0;
+    }
+    .like_dropdown.c_dropdown_toogler2{
+        padding: 11px 17px;
+    }
+    .like_dropdown.c_dropdown_toogler2::after {
+
+        border-color: #ccc transparent transparent transparent;
+        top: 18px;
+        right: auto;
+        margin-left: 10px;
+
+    }
+    .pb-calendar > .calendar-head-frame > .row > .col{
+        font-size: 11px;
+    }
+    .inner_head{
+        text-align: left;
+    }
+    .case_box .header_block{
+        text-align: center;
+    }
+    .case_box .header_block .logo_box,.case_box .header_block .qr_box{
+        margin: 0 auto;
+        float: unset;
+    }
+    .case_box .body_block{
+        padding: 30px 15px;
+    }
+    .block_table td {
+        word-break: break-all;
+    }
+    .featured_ul li{
+        width: 100%;
+        text-align: center;
+    }
+    .featured_ul li a{
+        padding: 10px 15px !important;
+        display: block;
+    }
+    .zig-data.fixed_width span{
+        width: 100%;
+    }
+    .zig-data.fixed_width.small span{
+        width: 50%;
+    }
+    .case_box .approved_are{
+        padding-top: 50px;
+    }
+    .page_title .right_actions{
+        float: unset;
+        display: block;
+        width: 100%;
+        overflow: hidden;
+        text-align: center;
+        margin: 0 auto;
+        margin-top: 30px;
+    }
+    .go_back {
+        display: block;
+        width: 100%;
+        margin-bottom: 27px;
+        background: transparent;
+        color: #2dcb86;
+    }
+    .sign_container{
+        top: 0;
+    }
+    .block_table.approved td:first-child{
+        width:100%;
+    }
+    .resulter td{
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+    .reject_by, .approved_by{
+        font-size: 14px;
+        width: 100%;
+        display: block;
+        float: unset;
+        margin-top: 7px;
+    }
+    .setting_row .name_field_bx{
+        width: 100%;
+        margin: 5px 0;
+    }
+    .setting_row .block_unblx_sec{
+        width: 100%;
+        margin: 5px 0;
+    }
+    .setting_row .moderated_sec{
+        width: 100%;
+        margin: 5px 0;
+    }
+    .custom-control-label::after,.custom-control-label::before{
+        width: 20px;
+        height: 20px;
+        top: 1px;
+        left: 8px;
+    }
+    .setting_row .custom-control-label{
+        padding-left: 12px;
+    }
+    .setting_row .form-control{
+        margin: 5px 0;
+        padding: 15px;
+    }
+    .styler_table thead th:not(:first-child) {
+        min-width: 135px;
+    }
+    .styler_table thead th:first-child {
+        min-width: 50px;
+    }
+    .styler_table thead th:last-child{
+        min-width: 50px;
+    }
+    .styler_table{
+        padding: 0;
+    }
+    .styler_table tbody tr{
+        box-shadow: 0px 5px 5px rgba(0,0,0,0.03);
+    }
+    .no_sidebar .main_content{
+        width: 100%;
+    }
+    .no_sidebar .brand_logo{
+        padding-left: 12px !important;
+    }
+    .no_sidebar .menu_noxi{
+        width: 100% !important;
+        max-width: 100%;
+        position: absolute;
+        top: -3px;
+        right: 0;
+        text-align: right;
+        float: right;
+    }
+    .no_sidebar .menu_noxi .menu_sec.withBtn{
+        padding-right: 0 !important;
+    }
+    .otp_box{
+        width: 100% !important;
+    }
+    .step_boxi .page_title .title {
+        padding-left: 0;
+        font-size: 18px;
+        float: left;
+        text-align: center;
+        width: 100%;
+    }
+    .step_boxi .page_title .steps{
+        width: 100%;
+        float: left;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    .adder_box{
+        position: relative;
+        top: 0;
+        right: auto;
+        left: auto;
+    }
+    .right_actioner{
+        float: unset;
+        overflow: hidden;
+        width: 100%;
+        padding-bottom: 0;
+        display: block;
+    }
+    .force_sam_l li {
+        display: block;
+        width: 100%;
+        margin: 7px 5px;
+        overflow: hidden;
+    }
+    .force_sam_l {
+        white-space: normal;
+    }
+    .tabe_menu .list-group-item {
+        padding: 25px 5px;
+    }
+    .right_actioner .icon_with{
+        margin-left: 0;
+    }
+    .input_zone ul{
+        padding: 0;
+    }
+    .right_actioner label{
+        padding-left: 0;
+    }
+    .right_actioner{
+        padding-top: 0;
+    }
+    .cardi_title{
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+    .styler_table tbody tr{
+        position: relative;
+    }
+    .setting_row_l .custom-control-label::after,.setting_row_l  .custom-control-label::before{
+        left: -2px;
+    }
+    .answer_area{
+        margin-top: 10px;
+    }
+    .setting_header .right_hand_actions{
+        float: unset;
+        padding-top: 17px;
+        overflow: hidden;
+        display: block;
+        width: 100%;
+    }
+    .equal_wfloaters_25 .floater_left{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .equal_wfloaters_20 .floater_left{
+        width: 100%;
+    }
+    .go_back{
+        position: relative;
+        left: 0px;
+    }
+    .select_role_box .role_select_box:first-child{
+        margin-bottom: 100px;
+    }
+    .ticket_row .title{
+        margin-bottom: 8px;
+    }
+    .ticket_row .badge{
+        margin-left: 0;
+    }
+    .ticket_row .c_accordin_header p{
+        padding: 0;
+    }
+    .ticket_row .title_area{
+        padding: 0;
+    }
+    .ticket_row .actioner_area{
+        padding: 0;
+        margin-top: 10px;
+    }
+    .ticket_additionals_r_ul li{
+        display: block;
+        float: left;
+        width: 100%;
+        margin: 5px 0;
+    }
+    .ticket_additionals_r_ul{
+        display: block;
+    }
+    .rotation_box{
+        margin-top: 25px;
+    }
+    .clip_box{
+        padding: 0;
+    }
+    .med_box{
+        width: 60vh;
+    }
+    .card_c_body .sm_user_box{
+        width: 100%;
+        margin-bottom: 5px;
+    }
+    .hospital_box .custom-control-label{
+        padding-left: 15px;
+    }
+    .page_title .right_actions{
+        position: relative;
+        display: block;
+    }
+    .page_title .right_actions .btn{
+        float: unset;
+    }
+    .profile_details_with_badge{
+        margin: 12px !important;
+        font-size: 16px !important;
+        padding-top: 15px;
+    }
+    .profile_details_with_badge .rewards{
+        padding: 0;
+    }
+    .profile_details_with_badge .rewards {
+        padding: 10px;
+    }
+    .reward_badge {
+        padding: 4px;
+    }
+    .name_p {
+        width: 100%;
+    }
+    .year_p {
+        width: 100%;
+    }
+    .rotating_box {
+        width: 100%;
+    }
+    .rotatiopn_col.c_colx {
+        width: 100%;
+    }
+    .preceptar_colx.c_colx {
+        width: 100%;
+    }
+    .students_col.c_colx {
+        width: 100%;
+    }
+    .infor_col.c_colx {
+        width: 100%;
+    }
+    .toogler_p.c_cols {
+        position: relative;
+        right: 0;
+        height: auto;
+        display: inherit;
+        margin-bottom: 10px;
+        top: 0;
+    }
+    .c_cols {
+        display: block;
+    }
+    .rotating_box span {
+        padding: 0 5px;
+        width: 25%;
+        float: left;
+    }
+    .right-sidebar{
+        width: 90vw;
+        right: -90vw;
+    }
+    body.show_sidebar .right_sidebar_toggler{
+        overflow: hidden !important;
+
+        padding-top: 0px !important;
+
+        padding-bottom: 0 !important;
+
+        margin-bottom: 9px !important;
+
+        top: 0 !important;
+    }
+    .profile_box.smaller .img_box {
+        width: 40%;
+    }
+    .accordan_btn {
+        display: block;
+        width: 100%;
+        padding: 20px 0 !important;
+    }
+    .closed_button li a{
+        padding: 10px 15px;
+    }
+    .floater{
+        float: unset;
+        display: block;
+        width: 100%;
+    }
+    .closed_button{
+        margin-top: 25px;
+    }
+    .closed_button{
+        margin-bottom: 20px;
+    }
+    .table-overflow{
+        max-width: 90%;
+        overflow: hidden;
+        overflow-x: auto;
+    }
+    .no_borderd th:not(:first-child){
+        padding: 15px;
+    }
+    .student_ticket_right{
+        overflow: hidden;
+        display: block;
+        float: left;
+        text-align: center;
+    }
+    .comment_profile_box .img img{
+        width: 60px;
+    }
+    .comment_profile_box .details a span{
+        display: block;
+    }
+    .ticket_additionals_r_ul .custom-control-label::after, .custom-control-label::before {
+       left: -7px;
+    }
+    .student_ticket_right, .ticket_row.small .c_accordin_header{
+        overflow: visible;
+    }
+    .ticket_row.small .title{
+        width: 100%;
+        display: block;
+        text-align: center;
+    }
+    .assign_ticket{
+        float: left;
+        text-align: left;
+    }
+    .assign_ticket label, .assign_ticket .oranged_selecter{
+        float: left;
+    }
+    .assign_ticket .oranged_selecter .select-selected{
+        padding-left: 0 !important;
+    }
+    .col_20{
+        width: 100%;
+    }
+    .col_c4{
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 100.00000%;
+        flex: 0 0 100.00000%;
+        max-width: 100.00000%;
+    }
+    .col_c5 {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 100.00000%;
+        flex: 0 0 100.00000%;
+        max-width: 100.00000%;
+    }
+    .employee_admin_staff_row p{
+        padding:  0 15px;
+    }
+    .mb_right{
+        text-align: right !important;
+    }
+    .empty_field_box{
+        padding: 15px 0;
+    }
+    .unit_box{
+        width: 100%;
+    }
+    .rotation_del_box{
+        width: 100%;
+    }
+    .right_actions.btn_group_d {
+        width: 100%;
+        display: block;
+        right: 0;
+    }
+    .btn_group_d .btn {
+        margin: 1% !important;
+        min-width: 46%;
+    }
+    .switcher li a{
+        padding: 15px 10px;
+        font-size: 14px;
+    }
+    .switcher{
+        float: unset;
+        text-align: center;
+    }
+    .chemical_box{
+        float: unset;
+    }
+    .custom_container{
+        width: 85%;
+    }
+    .college_box .content_box{
+        font-size: 22px;
+        text-align: center;
+        margin-top: 15px;
+    }
+    .tv_nav{
+        position: relative;
+    }
+    .apple_profiler_main{
+        position: absolute;
+        right: 0px;
+        top: 40px;
+        padding: 0;
+    }
+    .mob_hidden{
+        display: none !important;
+    }
+    .accordin_title_ul .accordin_title_li {
+
+        padding: 15px 15px !important;
+        float: left;
+
+    }
+    .mb-Pad_da{
+        display: block;
+        text-align: center !important;
+    }
+    .accordin_title_ul.right .accordin_title_li {
+
+        float: unset;
+        display: inline-flex;
+
+    }
+    .accordin_title_ul.right{
+        float: unset;
+
+        text-align: center;
+
+        margin: 0 auto;
+
+        display: block;
+    }
+    .accordin_title_li img{
+        margin-top: -16px;
+    }
+    .right_page_actioner{
+        position: relative;
+        margin: 25px 0;
+        display: block;
+        text-align: center;
+        width: 100%;
+        right: 0;
+    }
+    .right_page_actioner ul li {
+        float: unset;
+        text-align: center;
+        margin: 0 auto;
+    }
+    .right_page_actioner ul li:first-child {
+        display: block;
+        width: 100%;
+    }
+    .search_shower.show_input input {
+        display: block;
+        width: 92%;
+    }
+    .add_student_box_trigger {
+        margin-top: 20px;
+    }
+    .show_all_delete img {
+        margin-top: -17px;
+    }
+    .add_student_box {
+        right: 0;
+        top: 100px;
+    }
+    .mb_left .adder_box .actioner,.mb_left .adder_box .input_zone{
+        float: right;
+    }
+    .mb_pt_2{
+        position: absolute;
+        top: 18%;
+        right: 0;
+    }
+    .mb_pt_2 .search_shower.custom_pad a{
+        float: right;
+    }
+    .mb_pt_2 .search_shower.custom_pad.show_input {
+        background: #fff;
+        padding: 8px 0px;
+        overflow: hidden;
+    }
+    .mb_pt_2{
+        padding: 0 20px;
+    }
+    .mb_pt_2 .adder_box {
+        top: auto;
+    }
+    .fr_result img{
+        width: 100%;
+    }
+    .mb_txt_left{
+        text-align: left !important;
+    }
+    .questionaire ul li p::after{
+        display: none;
+    }
+    .mb_center_sm{
+        float: unset;
+        width: 100%;
+        text-align: center;
+        margin-bottom: 25px;
+    }
+    .comment_popup_box {
+        width: 100%;
+    }
+    .known_more_c a{
+        display: block;
+        margin: 0;
+    }
+    .interaction_filters li{
+        width: 100% !important;
+        display: block !important;
+    }
+    .with_icon_input i {
+        position: absolute;
+        padding: 2px 0;
+    }
+    .disease_stats_box{
+        padding-right: 0;
+        padding-left: 0;
+    }
+    .switcher.fit_all{
+        display: inline-block;
+    }
+    .force_sam_l.image_links li {
+        width: 50%;
+        float: left;
+        margin: 0;
+        text-align: center;
+    }
+    .super_adder .add_all_btn{
+        position: relative;
+        left: 0;
+        float: left;
+        top: 0;
+        margin: 12px;
+    }
+    .super_adder  .search_tag_box .text-core,.super_adder   .search_tag_box .text-wrap {
+        width: 100%;
+        height: 72px !important;
+        overflow-y: auto;
+        overflow-x: hidden;
+    }
+    .super_adder .search_tag_box{
+        padding: 40px 0;
+    }
+    .label_body{
+        padding: 0;
+    }
+    .styler_table.reverse_table{
+        overflow: hidden;
+        padding-bottom: 50px;
+    }
+    .mb_no_respon{
+        overflow-x: scroll;
+    }
+    .question_form_field span{
+        display: block;
+        margin-bottom: 15px;
+    }
+    .mobile_scroll_ta{
+        overflow: auto;
+    }
+    .dropdown-menu.bootstrap_d.with_icons {
+        padding: 10px;
+        left: -50px !important;
+        width: 250px;
+    }
+    .td_action_row.bigger {
+        width: 350px !important;
+        max-width: 350px !important;
+        display: block;
+    }
+    .submit_btn{
+        float: unset;
+        text-align: center;
+        display: block;
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 400px)and (max-width: 767px) {
+    .card_c_body .sm_user_box{
+        width: 50%;
+    }
+    .rotating_box span {
+        width: auto;
+    }
+}
+
+@media only screen and (min-width: 500px)and (max-width: 767px) {
+    .unit_box{
+        width: 50%;
+    }
+    .rotation_del_box{
+        width: 50%;
+    }
+}
+
+@media only screen and (min-width: 768px)and (max-width: 1150px) {
+    .custom_container{
+        width: 85%;
+    }
+    .card_c_body .sm_user_box{
+        width: 33.3%;
+    }
+    .name_p {
+        width: 100%;
+    }
+    .year_p {
+        width: 100%;
+    }
+    .rotating_box {
+        width: 100%;
+    }
+    .rotatiopn_col.c_colx {
+        width: 100%;
+    }
+    .preceptar_colx.c_colx {
+        width: 100%;
+    }
+    .students_col.c_colx {
+        width: 100%;
+    }
+    .infor_col.c_colx {
+        width: 100%;
+    }
+    .toogler_p.c_cols {
+        position: relative;
+        right: 0;
+        height: auto;
+        display: inherit;
+        margin-bottom: 10px;
+        top: 0;
+    }
+    .c_cols {
+        display: block;
+    }
+    .rotating_box span {
+        width: auto;
+    }
+    .right_actions.btn_group_d {
+        width: 100%;
+        display: block;
+        right: 0;
+        position: relative;
+
+        margin: 15px 0;
+    }
+    .btn_group_d .btn {
+        margin: 1% !important;
+        min-width: 23%;
+    }
+    .dots_menu .tab_li {
+        padding: 0 15px;
+    }
+    .adder_box {
+        position: relative;
+        top: 0;
+        right: auto;
+        left: auto;
+    }
+    .big_mob_adjust{
+        width: 100%;
+        text-align: center;
+    }
+    .dots_menu{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        list-style: none;
+        flex-direction: row;
+    }
+
+}
+@media only screen and (min-width: 1150px)and (max-width: 1300px){
+    .dots_menu .tab_li {
+        padding: 0 7px;
+    }
+}
+@media only screen and (min-width: 1150px)and (max-width: 1300px) {
+    .card_c_body .sm_user_box{
+        width: 20%;
+    }
+}
+
+@media only screen and (min-width: 767px)and (max-width: 900px) {
+    .tabe_menu .tab_li{
+        padding: 0;
+    }
+    .menu-left{
+        width: 10%;
+    }
+    .main_content{
+        width: 90%;
+    }
+    .unit_box {
+        width: 50%;
+    }
+    .rotation_del_box{
+        width: 50%;
+    }
+}
+@media only screen and (min-width: 900px)and (max-width: 1200px) {
+    .unit_box {
+        width: 33.3%;
+    }
+    .rotation_del_box{
+        width: 33.3%;
+    }
+}

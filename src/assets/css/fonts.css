@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700');
+@font-face {
+    font-family: 'GothamRoundedBold';
+    src: url('../fonts/Gotham/gothamrnd-bold.eot');
+    src: url('../fonts/Gotham/gothamrnd-bold.eot') format('embedded-opentype'),
+    url('../fonts/Gotham/gothamrnd-bold.woff') format('woff'),
+    url('../fonts/Gotham/gothamrnd-bold.ttf') format('truetype'),
+    url('../fonts/Gotham/gothamrnd-bold.svg#GothamRoundedBold') format('svg');
+}
+
+@font-face {
+    font-family: 'GothamRoundedBook';
+    src: url('../fonts/Gotham/gothamrnd-book.eot');
+    src: url('../fonts/Gotham/gothamrnd-book.eot') format('embedded-opentype'),
+    url('../fonts/Gotham/gothamrnd-book.woff') format('woff'),
+    url('../fonts/Gotham/gothamrnd-book.ttf') format('truetype'),
+    url('../fonts/Gotham/gothamrnd-book.svg#GothamRoundedBook') format('svg');
+}
+@font-face {
+    font-family: 'GothamRoundedMedium';
+    src: url('../fonts/Gotham/gothamrnd-medium.eot');
+    src: url('../fonts/Gotham/gothamrnd-medium.eot') format('embedded-opentype'),
+    url('../fonts/Gotham/gothamrnd-medium.woff') format('woff'),
+    url('../fonts/Gotham/gothamrnd-medium.ttf') format('truetype'),
+    url('../fonts/Gotham/gothamrnd-medium.svg#GothamRoundedMedium') format('svg');
+}
+@font-face {
+    font-family: 'GothamRoundedLight';
+    src: url('../fonts/Gotham/gothamrnd-light.eot');
+    src: url('../fonts/Gotham/gothamrnd-light.eot') format('embedded-opentype'),
+    url('../fonts/Gotham/gothamrnd-light.woff') format('woff'),
+    url('../fonts/Gotham/gothamrnd-light.ttf') format('truetype'),
+    url('../fonts/Gotham/gothamrnd-light.svg#GothamRoundedLight') format('svg');
+}
+
+@font-face {
+    font-family: 'GothamBook';
+    src: url('../fonts/Gotham/GothamBook.eot');
+    src: local('GothamBook'), url('../fonts/Gotham/GothamBook.woff') format('woff'), url('../fonts/Gotham/GothamBook.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'GothamBlack';
+    src: url('../fonts/Gotham/GothamBook.eot');
+    src: local('GothamBook'), url('../fonts/Gotham/GothamBook.woff') format('woff'), url('../fonts/Gotham/GothamBook.ttf') format('truetype');
+}
